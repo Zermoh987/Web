@@ -5,134 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="name-site">
-                    <b id="blue">wibu</b><b id="black">strez</b>
-            </div>
-            <div class="menu-site">
-                <a href="">home</a>
-                <a href="">featured</a>
-                <a href="">how it works</a>
-                <a href="">testimonial</a>
-                <a href="">blog</a>
-                <a href="">subscribe & FAQ</a>
-            </div>
-            <button onclick="window.location.href=''">sign in</button>
-        </header>
-        <main>
-            <div class="top">
-                <div class="left">
-                    <a href=""><img src="images/image.jfif" alt=""></a> <a href=""> Hakkaido, Japan</a>
-                    <h1>
-                        <b id="blue">Explore</b> and <b id="blue">enjoy</b> your<br/>
-                        vacation in <b id="blue">japan!</b>
-                    </h1>
-                    <p>Create an unforgettable and tell us all about<br>
-                        your wanderful holiday with us!</p>
-                    
-                    <div class="image">
-                        <img src="images/téléchargement (2).jfif" alt="">
-                        <img src="images/téléchargement (1).jfif" alt="">
-                        <img src="images/images.jfif" alt="">
-                        <img src="images/illustration4.png" alt="">
-                    </div>
-                    <button type="button" onclick="window.location.href=''">learn more</button>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+            <header class="navbar">
+                <div class="name-site">
+                        <b id="blue">wibu</b><b id="black">strez</b>
                 </div>
-                <!-- <div class="right"> -->
-                    <div class="paysage"></div>
-                    <div class="icon">
-                    <div class="user">
-                        <img src="images/emoji-personnes.png" alt="" width="40px">
+                <nav class="navbar fw-bold pt-4" style="">
+                    <ul>
+                        <li><a class="link-item" href="#">home</a></li>
+                        <li><a class="link-item" href="#">featured</a></li>
+                        <li><a class="link-item" href="#">how it works</a></li>
+                        <li><a class="link-item" href="#">testimonial</a></li>
+                        <li><a class="link-item" href="#">blog</a></li>
+                        <li><a class="link-item" href="#">subscribe & FAQ</a></li>
+                    </ul>
+                </nav>
+                <button onclick="window.location.href=''">sign in</button>
+            </header>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row m-5 mb-0">
+                <div class="col-lg-7">
+                        <div class="left">
+                            <div class="local d-flex">
+                                <a class="pe-1" href=""><img src="images/image.jfif" alt=""></a>
+                                <p><a href="" style="text-decoration: none;"> Hakkaido, Japan</a></p>
+                            </div>
+                            <h1 class="fw-bold">
+                                <b id="blue">Explore</b> and <b id="blue">enjoy</b> your<br/>
+                                vacation in <b id="blue">japan!</b>
+                            </h1>
+                            <p style="font-size: large;">Create an unforgettable and tell us all about<br>
+                                your wanderful holiday with us!</p>
+                            
+                            <div class="image">
+                                <img src="images/téléchargement (2).jfif" alt="">
+                                <img src="images/téléchargement (1).jfif" alt="">
+                                <img src="images/images.jfif" alt="">
+                                <img src="images/illustration4.png" alt="">
+                            </div>
+                            <div class="button">
+                                <button type="button" onclick="window.location.href=''">learn more</button>
+                            </div>
+                        </div>
+                </div>
 
-                        <div class="uso">
-                            <b>24M+</b>
-                        <p>User Online</p>
+                <div class="col-lg-5 col-xxl-5 col-xl-5 col-md-12 col-sm-12">
+                        <div class="paysage">
+                            <img src="images/illustration4.jpg" class="container-fluid" alt=""
+                             height="450rem" style="border-radius: 50% 50% 0 0;">
+                        </div>
+                        <div class="icon" style="width: 0;">
+                            <div class="user">
+                                <img src="images/emoji-personnes.png" alt="" width="40px">
+        
+                                <div class="uso">
+                                    <b>24M+</b>
+                                <p>User Online</p>
+                                </div>
+                            </div>
+                            <div class="visit">
+                                <img src="images/emoji-montagne.png" alt="" width="40px">
+        
+                                <div class="vmo">
+                                    <b>24M+</b>
+                                    <p>Visit Japan</p>
+                                </div>
+                            </div>
+                            <div class="dest">
+                                <img src="images/emoji-tour.png" alt="" width="40px">
+                                <div class="demo">
+                                    <b>24M+</b>
+                                    <p>Destination</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo row row-cols-1 row-cols-lg-4" style="margin-top: 5.5rem;">
+                        <div class="col-sm-3">
+                            <img src="images/Allianz.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="images/Garuda.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="images/aa.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <img src="images/United.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <div class="visit">
-                        <img src="images/emoji-montagne.png" alt="" width="40px">
-
-                        <div class="vmo">
-                            <b>24M+</b>
-                            <p>Visit Japan</p>
-                        </div>
-                    </div>
-                    <div class="dest">
-                        <img src="images/emoji-tour.png" alt="" width="40px">
-                        <div class="demo">
-                            <b>24M+</b>
-                            <p>Destination</p>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
+            <div class="row mt-5">
+              <div class="col-lg-5 ps-5">
+                <div class="h1 fw-bold" style="font-size: 3rem;">
+                  <p>How does our</p>
+                  <p style="color: rgb(9, 89, 146); margin-top: -10px;">service work?</p>
+                </div>
 
-            <div class="logo">
-                <img src="images/Allianz.jpg" alt="">
-                <img src="images/Garuda.jpg" alt="">
-                <img src="images/aa.jpg" alt="">
-                <img src="images/United.jpg" alt="">
-            </div>
-
-            <div class="bottom">
-                <div class="gauche">
-                    <div class="black">
-                        <h1>How does our</h1>
-                    </div>
-                    <div class="blue">
-                        <h1>service work?</h1>
-                    </div>
-                    <p>What is certain is that our service<br>
-                        performance is very good and regular</p>
-                    
+                <p class="desc" style="font-size: larger;">What is certain is that our service<br>
+                performance is very good and regular</p>
+                            
+                <div class="button mt-5">
                     <button onclick="window.location.href=''">get started</button>
                 </div>
-                <div class="droite">
-                    <div class="blog1">
-                        <div class="book-d">
-                            <div class="ic-book">
-                                <img src="images/icon-book.png" alt="">
-                            </div>
-                            <h3>Book a destination</h3>
-                            <p>Orfer in adavnce,don't<br>
-                                worry, it's not complicated</p>
-                        </div>
-                        <div class="to-go">
-                            <div class="ic-prepa">
-                                <img src="images/icon-preparation.png" alt="">
-                            </div>
-                            <h3>Preparation to go</h3>
-                            <p>We  will help you with all<br>
-                                your holiday needs</p>
-                        </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="row row-cols-2 row-cols-lg-2 g-2" style="column-gap: 3%; row-gap: 2rem;">
+                  <div class="col book-d p-2" style="width: 17rem;">
+                    <div class="ic-book">
+                        <img src="images/icon-book.png" alt="">
                     </div>
-
-                    <div class="blog2">
-                        <div class="go-to">
-                            <div class="ic-dest">
-                                <img src="images/icon-localisation.png" alt="">
-                            </div>
-                            <h3>Go to destination</h3>
-                            <p>We are with you all the<br>
-                                time when you start.</p>
-                        </div>
-                        <div class="enjoy">
-                            <div class="ic-enjoy">
-                                <img src="images/icon-enjoy.png" alt="">
-                            </div>
-                            <h3>Enjoy you Vacation</h3>
-                            <p>If theres is something we<br>
-                                are always there</p>
-                        </div>
+                    <h3>Book a destination</h3>
+                    <p>Orfer in adavnce,don't<br>
+                      worry, it's not complicated</p>
+                  </div>
+                  <div class="col to-go p-2" style="width: 17rem;">
+                    <div class="ic-prepa">
+                       <img src="images/icon-preparation.png" alt="">
                     </div>
+                    <h3>Preparation to go</h3>
+                    <p>We  will help you with all<br>
+                      your holiday needs</p>
+                  </div>
+                  <div class="col go-to p-2" style="width: 17rem;">
+                    <div class="ic-dest">
+                      <img src="images/icon-localisation.png" alt="">
+                    </div>
+                    <h3>Go to destination</h3>
+                    <p>We are with you all the<br>
+                       time when you start.</p>
+                  </div>
+                  <div class="col enjoy p-2" style="width: 17rem;">
+                    <div class="ic-enjoy">
+                      <img src="images/icon-enjoy.png" alt="">
+                    </div>
+                    <h3>Enjoy you Vacation</h3>
+                    <p>If theres is something we<br>
+                        are always there</p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </main>
+          </div>
+        </div>
     </div>
 </body>
 </html>

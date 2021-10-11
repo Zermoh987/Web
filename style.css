@@ -1,42 +1,27 @@
-
-.container{
-    border-radius: 30px 30px 0 0;
-    background-color: #fff;
-}
-
 header{
-    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 80px;
-    margin-right: 60px;
+    margin: 20px 80px 30px 60px;
 }
 
 .name-site{
     font-size: 24px;
     text-transform: capitalize;
-    width: 15%;
-    margin-top: 40px;
 }
 
 #blue{
     color: rgb(23, 102, 158);
 }
-.menu-site{
-    text-align: center;
-    width: 70%;
-    margin-top: 40px;
+.navbar li{
+    list-style: none;
+    display: inline;
 }
-.menu-site a{
+.navbar a{
     text-decoration: none;
-    padding: 10px;
-    font-size: 18px;
+    margin-left: 2rem;
     text-transform: capitalize;
-    color: grey;
+    color: #000;
 }
 
-.menu-site a:hover{
-    color: blue;
-}
 header button{
     width: 100px;
     height: 35px;
@@ -46,25 +31,6 @@ header button{
     color: white;
     text-transform: capitalize;
     border: none;
-    cursor: pointer;
-    margin-top: 35px;
-}
-
-.top{
-    display: flex;
-    margin-left: 80px;
-    margin-top: 7%;
-}
-button{
-    width: 160px;
-    height: 45px;
-    background-color: rgb(232, 40, 73);
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-    border: none;
-    cursor: pointer;
 }
 
 .image img{
@@ -78,23 +44,6 @@ button{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.left a{
-    text-decoration: none;
-    font-size: 18px;
-    color: rgb(12, 119, 201);
-}
-a img{
-    margin-top: 50px;
-}
-.left h1{
-    font-size: 60px;
-
-}
-
-.left p{
-    font-size: 26px;
-    color: rgb(155, 154, 154);
-}
 
 .logo{
     display: flex;
@@ -102,166 +51,76 @@ a img{
 }
 .logo img{
     padding-left: 13.5%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0  30px 0;
 }
 
-.bottom{
-    display: flex;
-    margin-top: 5%;
-    margin-left: 80px;
-}
-.gauche{
-    flex: 1;
-}
-.droite{
-    flex: 1.5;
-    margin-bottom: 100px;
-}
-.gauche h1{
-    font-size: 46px;
-}
-.gauche p{
-    color: rgb(155, 154, 154);
-    font-size: 18px;
-}
-.blue{
-    color: rgb(9, 89, 146);
-    margin-top: -30px;
-}
-input[type="button"]{
+button{
     width: 160px;
     height: 45px;
     background-color: rgb(232, 40, 73);
-    border-radius: 10px;
+    border-radius: 10px !important;
     text-align: center;
     color: white;
     text-transform: capitalize;
     border: none;
-    cursor: pointer;
     margin-top: 30px;
 }
-.blog1{
-    display: flex;
-}
 .book-d{
-    margin: 30px;
-    width: 30%;
-}
-.book-d:hover{
-    box-shadow: 2px 2px 6px 6px rgb(192, 190, 190);
+    box-shadow: 1px 1px 3px 3px rgb(192, 190, 190);
     border-radius: 5px;
-}
-
-.to-go{
-    margin: 30px;
-    width: 30%;
 }
 .to-go:hover{
-    box-shadow: 2px 2px 6px 6px rgb(192, 190, 190);
+    box-shadow: 1px 1px 3px 3px rgb(192, 190, 190);
     border-radius: 5px;
-}
-.blog2{
-    display: flex;
-}
-.go-to{
-    margin: 30px;
-    width: 30%;
 }
 .go-to:hover{
-    box-shadow: 2px 2px 6px 6px rgb(192, 190, 190);
+    box-shadow: 1px 1px 3px 3px rgb(192, 190, 190);
     border-radius: 5px;
-}
-.enjoy{
-    margin: 30px;
-    width: 30%;
 }
 .enjoy:hover{
-    box-shadow: 2px 2px 6px 6px rgb(192, 190, 190);
+    box-shadow: 1px 1px 3px 3px rgb(192, 190, 190);
     border-radius: 5px;
-}
-.droite h3{
-    margin-left: 15px;
-}
-.droite p{
-    margin-left: 15px;
-}
-.droite img{
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 15px;
 }
 .paysage{
-    background-image: url("images/illustration4.jpg");
-    height:580px;
     width: 450px;
-    border-radius: 50% 50% 0 0;
-    left: 70px;
-    position: relative;
+    position: absolute;
 }
 .user{
     position: relative;
     background-color: white;
     display: flex;
     width: 140px;
-    right: 10em;
-    bottom: 5%;
+    top: -2rem;
+    left: 6rem;
     border-radius: 5px;
     border: 1px solid  rgb(236, 235, 235);
 }
-.user img{
+.icon img{
     background-color: rgb(235, 232, 232);
     border-radius: 5px;
     margin: 5px;
 }
-.right b{
-    color: rgb(9, 89, 146);
-}
-.right p{
-    margin-top: 5px;
-}
-.uso{
-    margin-top: 5px;
-}
+
 .visit{
     position: relative;
     background-color: white;
     display: flex;
     width: 140px;
-    right: 15em;
-    top: 10em;
+    top: 13em;
+    right: -10rem;
     border-radius: 5px;
     border: 1px solid  rgb(236, 235, 235);
-}
-.visit img{
-    background-color: rgb(235, 232, 232);
-    border-radius: 5px;
-    margin: 5px;
-}
-.vmo{
-    margin-top: 10px;
 }
 .dest{
     position: relative;
     background-color: white;
     display: flex;
     width: 140px;
-    right: 25em;
     bottom: 15%;
     border-radius: 5px;
     border: 1px solid  rgb(236, 235, 235);
 }
-.dest img{
-    background-color: rgb(235, 232, 232);
-    border-radius: 5px;
-    margin: 5px;
-}
-.demo{
-    margin-top: 10px;
-}
-/* .icon{
-    height: 0px;
-} */
+
 
 
 
